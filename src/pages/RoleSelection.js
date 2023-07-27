@@ -5,7 +5,6 @@ const RoleSelection = () => {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const navigate = useNavigate();
-
   
     const handleUsernameChange = (e) => {
       setUsername(e.target.value);
